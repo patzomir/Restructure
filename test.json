@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "brand",
+        "fixed_vars": [ "record" ],
+        "entries": [
+            { 
+                "question_begining" : ["D4", "D5"],
+                "delimeters" : [ ["r"] ]
+            },
+            {
+                "question_begining" : ["D6"],
+                "delimeters" : [["r", "c"]]
+            }
+        ],
+        "dept": 3,
+        "stack_name": [ "brand" ]
+    },
+	{
+        "name" : "check",
+        "fixed_vars": [ "record" ],
+        "entries": [
+            { 
+                "question_begining" : ["D9b" ],
+                "delimeters" : [ ["r", "c"], ["_$_"] ]
+            }
+        ],
+        "dept": 3,
+        "stack_name": [ "brand", "check" ]
+    }
+]
