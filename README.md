@@ -14,3 +14,7 @@ The script restructures the data while keeping the useful information in the var
 # Usage
 
 The script uses the JSON file as a basis for the restructure information. Currently the JSON file is made by hand.
+
+# Dependencies
+  - pandas
+  
